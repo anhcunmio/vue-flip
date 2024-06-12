@@ -1,5 +1,5 @@
 {
-  "name": "vue-flip",
+  "name": "vue-flip-cunmio",
   "files": [
     "dist"
   ],
@@ -12,7 +12,7 @@
     }
   },
   "private": false,
-  "version": "3.0.2",
+  "version": "1.0.0",
   "description": "A component to flip elements",
   "type": "module",
   "types": "./dist/index.d.ts",
