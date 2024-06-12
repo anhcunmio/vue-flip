@@ -83,13 +83,14 @@ export default defineComponent({
     computedBackStyle(): cssObject {
       return {
         ...backAndFrontStyle,
+        'z-index': this.modelValue ? 2 : 1,
         transform: 'rotateY(180deg)',
       }
     },
     computedFrontStyle(): cssObject {
       return {
         ...backAndFrontStyle,
-        'z-index': 2,
+        'z-index': this.modelValue ? 1 : 2,
         transform: 'rotateY(0deg)',
       }
     },
